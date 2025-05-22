@@ -1,0 +1,27 @@
+{
+    "name": "my-project",
+    "version": "0.0.0",
+    "files": [
+        "src/main.ts",
+        "src/maqueen/maqueen.ts",
+        "src/maqueen/enums.d.ts",
+        "src/maqueen/shims.d.ts",
+        "src/maqueenV2/maqueenPlusV2.ts",
+        "src/maqueenV2/ws2812b.ts",
+        "src/robots/Robot.ts",
+        "src/robots/SmallRobot.ts",
+        "src/robots/BigRobot.ts",
+        "src/journeys.ts",
+        "src/robotConfig.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*"
+    },
+    "testDependencies": {}
+}
