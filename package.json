@@ -1,0 +1,26 @@
+{
+  "name": "eurobot-2025-dancer",
+  "version": "1.0.0",
+  "description": "An awesome Microbit based PAMI !",
+  "homepage": "https://github.com/Game-Team-SLSC/eurobot-2025-groupie#readme",
+  "bugs": {
+    "url": "https://github.com/Game-Team-SLSC/eurobot-2025-groupie/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Game-Team-SLSC/eurobot-2025-groupie.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx makecode serve",
+    "build": "npx makecode"
+  },
+  "devDependencies": {
+    "makecode": "^1.3.4",
+    "typescript": "=2.6.1"
+  }
+}
