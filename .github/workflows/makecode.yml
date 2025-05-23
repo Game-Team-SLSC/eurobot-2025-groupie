@@ -12,4 +12,4 @@ jobs:
           submodules: recursive
       - run: |
           npm install
-          npx mkc build
+          
